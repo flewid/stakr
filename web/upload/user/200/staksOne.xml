@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stacks>
+  <stack>
+    <ID>3</ID>
+    <metalOriginCountry></metalOriginCountry>
+    <metalSymbol>8</metalSymbol>
+    <metalVendor>1</metalVendor>
+    <metalPurchaseDate>2015-03-31</metalPurchaseDate>
+    <metalPurchasePrice>123</metalPurchasePrice>
+    <metalShippingCost>123</metalShippingCost>
+    <metalDescription>admin</metalDescription>
+    <metalShape>1</metalShape>
+    <metalPurchaseDateValue>0000-00-00</metalPurchaseDateValue>
+    <metalCurrentValue>123</metalCurrentValue>
+    <metalQuantity>123</metalQuantity>
+    <metalTotalPaid>123</metalTotalPaid>
+    <metalOriginMint></metalOriginMint>
+    <metalGrade>1</metalGrade>
+    <author_id>200</author_id>
+    <default>1</default>
+    <mintMark></mintMark>
+    <roll>0</roll>
+    <roll_id></roll_id>
+    <title>Ag-3</title>
+  </stack>
+</stacks>

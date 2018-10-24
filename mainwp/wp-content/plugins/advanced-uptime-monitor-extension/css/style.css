@@ -1,0 +1,501 @@
+body{
+	margin:0px;
+}
+.monitors{
+	position:relative;
+	padding-right:0px !important;
+	margin:0px !important;
+	padding-bottom:20px;
+}
+.wrap.monitors h2{
+	width: 100%;
+	background-color: #eaeaea;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#dbdbdb)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #eaeaea, #dbdbdb); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #eaeaea, #dbdbdb); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #eaeaea, #dbdbdb); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #eaeaea, #dbdbdb);
+	text-align:center;
+	color: black;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-bottom:10px;
+	box-sizing: border-box;
+	margin-right:0px !important;
+	padding-right:0px !important;
+}
+.aum_legend {
+	-webkit-border-radius: 12px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+		  border-radius: 12px;
+	border: 1px solid #dddddd;
+	padding: 5px 15px 5px 15px;
+	float:left;
+	margin-left:10px;
+}
+.aum_legend .item{
+	float:left;
+	min-width:50px;
+	margin-right:25px;
+	display:table-cell;
+	vertical-align:middle;
+	color: #868686;
+	font-size:15px;
+}
+.aum_legend .item .color{
+	float:left;
+	width:22px;
+	height:22px;
+	margin-right:5px;
+}
+.aum_legend .item .color.green{
+	background-color:#afce61;
+}
+.aum_legend .item .color.red{
+	background-color:#de7061;
+}
+.aum_legend .item .color.yellow{
+	background-color:#fde661;
+}
+.aum_legend .item .color.grey{
+	background-color:#888888;
+}
+.aum_legend .item .color.light-grey{
+	background-color:#e9e9e9;
+}
+input.aum_button{
+	background-color: #77a600;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#77a600), to(#4e6f00)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #77a600, #4e6f00); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #77a600, #4e6f00); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #77a600, #4e6f00); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #77a600, #4e6f00);
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+input.aum_button:hover{
+	background-color: #4e6f00;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4e6f00), to(#77a600)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #4e6f00, #77a600); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #4e6f00, #77a600); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #4e6f00, #77a600); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #4e6f00, #77a600);
+}
+input.aum_add_new_button{
+	float:right;
+	margin-right:10px;
+}
+input.aum_button, input.aum_button2{
+	color: white;
+	cursor: pointer;
+	border: none;
+	font-size:16px;
+	-webkit-border-radius: 3px; /* Android â‰¤ 1.6, iOS 1-3.2, Safari 3-4 */
+	border-radius: 3px;
+}
+input.aum_button2{
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-transform:none;
+}
+input.aum_button2.aum_button3{
+	background-color: #dcdcdc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#aaaaaa)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #dcdcdc, #aaaaaa); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #dcdcdc, #aaaaaa); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #dcdcdc, #aaaaaa); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #dcdcdc, #aaaaaa);
+	color: black;
+}
+input.aum_button3:hover{
+	background-color: #aaaaaa;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#dcdcdc)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #aaaaaa, #dcdcdc); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #aaaaaa, #dcdcdc); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #aaaaaa, #dcdcdc); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #aaaaaa, #dcdcdc);
+}
+.aum_popup{
+	position:absolute;
+	left:30px;
+	top:75px;
+	overflow:hidden;
+	z-index: 10;
+}
+a.close_link{
+	position:absolute;
+	top: 1.5em;
+	right: 1.5em;
+}
+.aum_monitors_list{
+	padding: 0;
+	border-spacing: 0px 2px;
+			margin-left:  10px;
+			position: relative;
+/*	min-width:1230px; % */
+}
+.aum_monitors_list tr{
+	clear:both;
+	margin-bottom:20px;
+	height: 39px;
+	vertical-align: middle;
+}
+.aum_monitors_list tr.monitor_row{
+	background-color: #f1f1f1;
+}
+.aum_monitors_list td{
+	vertical-align:middle;
+	padding: 2px;
+	font-size: 19px;
+	border-right:none;
+}
+.aum_monitors_list td img{
+	vertical-align:middle;
+}
+.aum_monitors_list td.monitor_name{
+	width:92%;
+	text-transform:uppercase;
+	cursor: pointer;
+}
+#aum_mainwp_widget_uptime_monitor_content .aum_monitors_list td.monitor_name{
+	width:85%;
+}
+.aum_monitors_list td.monitor_name:hover{
+	font-weight: bold;
+}
+.aum_monitors_list td.monitor_name img.monitor_status{
+	margin-right:20px;
+}
+.aum_monitors_list td.url_cell{
+	border: 1px solid #eeeeee
+}
+.aum_monitors_list td.url_cell.aum_url_header{
+	background-color: #cfcfcf;
+}
+img.aumloading{
+	position:absolute;
+}
+.aum_monitors_list .active_monitor{
+	font-weight: bold;
+}
+.aum_monitors_list .cell{
+	float:left;
+}
+.aum_monitors_list .cell.url_name{
+	width:160px;
+}
+#aum_mainwp_widget_uptime_monitor_content .aum_monitors_list .cell.url_name{
+	width:110px;
+}
+.aum_monitors_list .cell.url_diagram{
+/*	width:600px; */
+	margin-right:50px;
+}
+.aum_monitors_list .url_data .cell.url_diagram{
+	position: relative;
+	height: 24px;
+	margin-top:7px;
+	background-repeat:repeat-x;
+}
+.aum_monitors_list .aum_diagram_overlay{
+	background-image: url('../app/views/admin/images/diagram_bg.png');
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:27px;
+	z-index:3;
+	opacity:0.8;
+}
+.aum_monitors_list .url_data .cell.url_diagram .event_fill{
+	float:left;
+	height:100%;
+}
+.aum_monitors_list .down, .statistics_table .down, .aum_upm_status.down, .aum_upm_color_info.down{
+	background-color: #f21200 !important;
+}
+.aum_monitors_list .up, .statistics_table .up, .aum_upm_status.up, .aum_upm_color_info.up {
+	background-color: #7FB100 !important;
+}
+.aum_monitors_list .paused, .statistics_table .paused, .aum_upm_status.paused, .aum_upm_color_info.paused{
+	background-color: #333333 !important;
+}
+.aum_monitors_list .started, .statistics_table .started, .aum_upm_status.started, .aum_upm_color_info.started,
+.aum_monitors_list .seems_down, .statistics_table .seems_down, .aum_upm_status.seems_down, .aum_upm_color_info.seems_down {
+	background-color: #fde661 !important;
+}
+.aum_monitors_list .not_checked, .statistics_table .not_checked, .aum_upm_status.not_checked, .aum_upm_color_info.not_checked{
+	background-color: #eaeaea !important;
+}
+.aum_monitors_list .url_data .cell.url_diagram .dot{
+	position:absolute;
+	width:12px;
+	height:12px;
+	background-image: url('../app/views/admin/images/dot.png');
+	top:6px;
+	z-index:1;
+}
+.aum_monitors_list .cell.url_status{
+	width:100px;
+			float:right;
+	text-align: center !important;
+}
+.aum_monitors_list .url_data .cell.url_status{
+	-webkit-border-radius: 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+		  border-radius: 4px;
+	color:white;
+	font-size:16px;
+	font-weight:700;
+	padding-top:8px;
+		   margin-right: 10px;
+	height:27px;
+}
+#aum_mainwp_widget_uptime_monitor_content .aum_monitors_list .url_data .cell.url_status{
+	width:67px;
+		   height: 22px;
+		   padding-top:6px;
+}
+.aum_monitors_list .url_data .cell.url_status.on{
+	background-color: #7FB100;
+}
+.aum_monitors_list .url_data .cell.url_status.paused{
+	background-color: #878787;
+}
+.aum_monitors_list .aum_url_header .cell.url_diagram{
+	font-size:13px;
+}
+.aum_monitors_list .cell.url_actions{
+	padding-right:7px;
+	text-align:center;
+	width:110px;
+}
+.aum_monitors_list .actions{
+	width:40px;
+}
+.aum_monitors_list .actions .aum_action_link{
+	margin-left:3px;
+}
+.aum_monitors_list .url_actions .aum_action_link{
+	margin-top:7px;
+	display:inline-block;
+}
+#aum_mainwp_widget_uptime_monitor_option_page .mainwp-extra-col.url_actions {
+	float: right;
+	width: 11%;
+	text-align: right;
+}
+
+.aum_action_link {
+	float:left;
+	cursor: pointer;
+	margin: 3px 0 0 6px;
+}
+/*
+.aum_action_link.start{
+    background-position: 0px 0px;
+}
+.aum_action_link.pause{
+    background-position: -18px 0px;
+}
+.aum_action_link.stats_link {
+    background-position: -54px 0px;
+
+}
+.aum_action_link.url_edit_link {
+    background-position: -36px 0px;
+}
+.aum_action_link.url_delete_link {
+    background-position: -72px 0px;
+}
+.aum_action_link.start:hover{
+    background-position: 0px 0px;
+    opacity: 0.8 ;
+}
+.aum_action_link.pause:hover{
+    background-position: -18px 0px;
+    opacity: 0.8 ;
+}
+.aum_action_link.stats_link:hover {
+    background-position: -54px 0px;
+    opacity: 0.8 ;
+}
+.aum_action_link.url_edit_link:hover {
+    background-position: -36px 0px;
+    opacity: 0.8 ;
+}
+.aum_action_link.url_delete_link:hover {
+    background-position: -72px 0px;
+    opacity: 0.8 ;
+}
+
+*/
+.url_edit_link {
+	}
+.url_delete_link {
+	}
+.aum_monitors_list div {
+	height: 14px;
+	float: right;
+	margin-top: 6px;
+}
+.aum_monitor-header .aum_time{
+	display:inline-block;
+	width: 4.1%;
+	font-size: 11px;
+}
+#aum_mainwp_widget_uptime_monitor_content .aum_url_header .aum_time {
+	width: 15px;
+	font-size: 11px;
+}
+.monitor_subtype, .url_monitor_keywordtype, .url_monitor_keywordvalue {
+	display:none;
+}
+fieldset.uptime_monitor_popup {
+	background: #ffffff;
+	border: none !important;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 10px rgba(50, 50, 50, 0.75);
+	color: #888;
+	font-size: 16px;
+	overflow: visible;
+	padding: 15px ;
+	position: relative;
+	margin: 1em ;
+}
+fieldset.uptime_monitor_popup fieldset .error{
+	position: absolute;
+	top:16px;
+	right:50px;
+	padding:2px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border-width:1px;
+	border-style:solid;
+}
+fieldset.uptime_monitor_popup .notice {
+	float: left;
+			margin-bottom: 15px;
+	padding: 6px;
+			width:  95%;
+	-webkit-border-radius:3px;border-radius:3px;border-width:1px;border-style:solid;
+}
+fieldset.uptime_monitor_popup .error{
+	float: left;
+			margin-bottom: 15px;
+	padding: 6px;
+			width:  95%;
+	-webkit-border-radius:3px;border-radius:3px;border-width:1px;border-style:solid;
+			background-color: #FFEBE8;
+			border-color: #CC0000;
+}
+fieldset.uptime_monitor_popup .error p, fieldset.uptime_monitor_popup .notice p{
+	padding:0px;
+	margin:0px;
+}
+	fieldset.uptime_monitor_popup h3{
+	background: none;
+	color: #888;
+	margin:3px 0 1em 0;
+	padding:0px;
+	border-bottom: 1px solid #eee ;
+}
+fieldset.uptime_monitor_popup form {
+	float:left;
+}
+fieldset.uptime_monitor_popup form label{
+	min-width: 200px;
+	text-align:right;
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+fieldset.uptime_monitor_popup form label.label1{
+	min-width:0px;
+	float:none;
+	display:inline;
+}
+fieldset.uptime_monitor_popup form input[type=text]{
+	height:30px;
+}
+fieldset.uptime_monitor_popup form input[type=text], fieldset form select {
+	width:200px;
+	margin: 0;
+	padding: 2px;
+}
+fieldset.uptime_monitor_popup form > div{
+	margin-bottom:5px;
+	clear:both;
+		   height: 32px;
+}
+fieldset.uptime_monitor_popup cel input{
+	float:left;
+}
+fieldset.uptime_monitor_popup form .monitor_type_label{
+	float:left;
+}
+fieldset.uptime_monitor_popup form .monitor_type_checkboxes{
+	float:left;
+}
+fieldset.uptime_monitor_popup form .monitor_type_checkboxes input{
+	float:left;
+	margin-right:10px;
+}
+fieldset.uptime_monitor_popup form .monitor_type_checkboxes label{
+	min-width : 0px !important;
+	float:right;
+	width:140px;
+	text-align:left;
+}
+fieldset.uptime_monitor_popup form .monitor_type_checkboxes > div{
+	clear: both;
+}
+fieldset.uptime_monitor_popup form input[type=submit]{
+	float:right;
+}
+fieldset .statistics_table{
+	text-align:center;
+	width:100%;
+}
+fieldset.uptime_monitor_popup table{
+	font-size:12px;
+		   float: left;
+		   margin: 0 0 5px;
+}
+fieldset .statistics_table table{
+	margin:auto auto;
+	text-align:left;
+	width:100%;
+	border-spacing: 0 ;
+}
+fieldset .statistics_table table tbody tr td{
+	background-color:#fafafa;
+	padding: 3px ;
+}
+fieldset .statistics_table table tbody tr:nth-child(even) td{
+	background-color:#f4f4f4 ;
+}
+.started_log {
+	height: 16px;
+	width: 2px;
+	margin-right: 2px;
+}
+
+fieldset.uptime_monitor_popup div.updated, fieldset.uptime_monitor_popup .login .message {
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+}
+
+#mainwp-ps-tips {
+	display: none;
+}
+.mainwp-ps-tut, #mainwp-ps-tips {
+	display: none;
+}
+.uptime_monitor_popup * {
+	font-family: Open Sans;
+}

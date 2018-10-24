@@ -1,0 +1,171 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.page-header .breadcrumbs{
+    font-size: inherit;
+}
+
+.datepicker{
+}
+.pClassInView{
+    position: absolute;
+    top: -60px;
+    right: 10px;
+}
+.table-responsive{
+    overflow-x: visible;
+}
+
+.required label:after{
+    content: " *";
+    color: red;
+}
+.required .radio-custom label:after{
+    content: " ";
+    color: inherit;
+}
+.modal-dialog{
+    z-index: 1051;
+}
+select{
+    height: auto;
+    padding: 5px;
+}
+.grid-view .btn{
+    margin: 1px;
+}
+
+.datetimepicker .switch{
+    display: table-cell;
+}
+
+.widget-summary .summary{
+    word-break: normal;
+}
+.table-responsive{
+    overflow-x: scroll;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    width: auto;
+}
+.myWidth{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 1024px)/*если экран 1024px или больше*/
+{
+    .myWidth{
+        float: left;
+        width: 50%;
+    }
+}
+@media (min-width: 1200px)/*если экран больше 1200px*/
+{
+    .myWidth{
+        float: left;
+        width: 16.66666667%;
+    }
+}
+
+.widget-summary .summary-icon{
+
+    font-size: 1.8rem;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.widget-summary .summary .amount {
+font-size: 1.8rem;
+}

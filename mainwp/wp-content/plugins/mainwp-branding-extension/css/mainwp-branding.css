@@ -1,0 +1,120 @@
+.mainwp-branding-tut-content img {
+	width: 100%;
+}
+
+.mainwp_checkboxes.mainwp_branding {
+	margin: 0;
+}
+
+.mainwp-branding-table-td-cell {
+	float: left;
+	width: 250px;
+}
+
+#mainwp-edit-single-site-form .mainwp-branding-table-td-cell input[type="text"] {
+	width: 300px !important;
+}
+
+#mainwp-edit-single-site-form .mainwp-branding-table-td-cell input[type="text"]:focus {
+	width: 300px !important;
+}
+
+.brd-arr {
+	color: #AAAAAA;
+	font-size: 2.8em;
+	font-weight: 800;
+	margin: -12px 10px 0;
+	vertical-align: top;
+	float: left;
+}
+
+.mainwp-branding-table-td-cell2 {
+	width: 300px;
+	float: left;
+}
+
+.mainwp-branding-table-td-cell2 input[type="text"] {
+	width: 100%;
+}
+
+.mainwp-branding-table-td-cell-opt {
+	float: left;
+	margin: 7px 0 0 20px;
+}
+
+.mainwp-branding-text-replace-row {
+	float: left;
+}
+
+#mainwp-branding-texts-replace-ajax-zone {
+	margin-top: 25px;
+}
+
+#mainwp-edit-single-site-form .mainwp-branding-table-td-cell2 input[type="text"] {
+	width: 300px !important;
+}
+
+#mainwp-edit-single-site-form .mainwp-branding-table-td-cell2 input[type="text"]:focus {
+	width: 300px !important;
+}
+
+.brd_favico_img {
+	width: 16px;
+	height: 16px;
+}
+
+.mainwp_branding_postbox .handlediv {
+	float: right;
+	height: 30px;
+	width: 27px;
+}
+
+.mainwp_branding_postbox .handlediv:before {
+	content: '\f142';
+}
+
+.mainwp_branding_postbox.closed .handlediv:before {
+	content: '\f140';
+}
+
+.mainwp_branding_postbox .handlediv:before {
+	right: 12px;
+	font: normal 20px/1 'dashicons';
+	speak: none;
+	display: inline-block;
+	padding: 8px 10px;
+	top: 0;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+}
+
+.mainwp_branding_postbox.closed > .inside {
+	display: none;
+}
+
+.mainwp_branding_postbox table tr {
+	border-top: 1px dotted #e5e5e5;
+}
+
+.mainwp_branding_postbox table tr td,
+.mainwp_branding_postbox table tr th {
+	padding: 2em 1em;
+}
+
+.mainwp_branding_postbox table tr th {
+	width: 25%;
+}
+
+.mainwp_ext_info_box {
+	background-color: #fff;
+	border: 1px Solid #e5e5e5;
+	padding: 1em;
+	margin-bottom: 1em;
+	text-decoration: none !important;
+}
+
+.mainwp_ext_info_box a {
+	text-decoration: none !important;
+}

@@ -1,0 +1,1 @@
+<div>	<?php echo '<?php echo $this->html->' . esc_html( $name_underscored ) . '_link($object); ?>'; ?></div>

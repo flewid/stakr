@@ -1,0 +1,38 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^/?(.*) http://%1/$1 [L,R=permanent]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+
+AddType application/octet-stream .txt
+AddType application/octet-stream .pdf
+AddType application/octet-stream .jpg
+AddType application/octet-stream .mov
+
+#<FilesMatch "\.(?i:pdf)$">
+#  ForceType application/octet-stream
+#  Header set Content-Disposition attachment
+#</FilesMatch>
+
+#php_value session.gc_maxlifetime 86400
+#php_value session.cookie_lifetime 604800
+
+#php_value session.save_path "/home/madeinmed/www/site12/public_html/tmp"
+#php_value session.gc_probability 100
+#php_value session.gc_divisor 1
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_value error_reporting 6135
+
