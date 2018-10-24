@@ -40,16 +40,20 @@ $ php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta3"</pre>
 6. Edit the mysql database information in the config file 
 <pre>$ cp ./config/db_prod.php ./config/db.php && nano ./config/db.php</pre>
 
-7. Visit http://yourdomain.com and login with the default info: 
+7. Visit http://yourdomain.com and login with the default info, then create a user account: 
 
 <p><strong>username:</strong> admin@domain.com<br />
    <strong>password:</strong> admin123</p>
 
-8. Change the password for the user, and create more if needed. 
-
-9. Test it out and report any bugs!
+8. Log out, and then login as the user you just created and start adding to your stack!
 
 <h2>DEFAULT LOGINS</h2>
+
+<h3>USER</H3>
+<p><strong>username:</strong> user@domain.com<br />
+   <strong>password:</strong> user123</p>
+   
+<h3>ADMINISTRATOR</H3>
 <p><strong>username:</strong> admin@domain.com<br />
    <strong>password:</strong> admin123</p>
 
