@@ -7674,3 +7674,417 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1540187798.502
     'REQUEST_TIME' => 1540187798
 ]
+2018-10-24 04:25:01 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:00 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8ca225b2494da1c80ad3901d6804af0350a6bd266a51a2dcba89c353cae90b5da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qosF-YDlYo8-TmoxL6ZUFYv3x1tL7xUj\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0HJ8N6Db6R8uXi2-7fwAAAA8'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0HJ8N6Db6R8uXi2-7fwAAAA8'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0HJ8N6Db6R8uXi2-7fwAAAA8'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => '_csrf=8ca225b2494da1c80ad3901d6804af0350a6bd266a51a2dcba89c353cae90b5da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qosF-YDlYo8-TmoxL6ZUFYv3x1tL7xUj%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63123'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355100.994
+    'REQUEST_TIME' => 1540355100
+]
+2018-10-24 04:25:02 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:02 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8ca225b2494da1c80ad3901d6804af0350a6bd266a51a2dcba89c353cae90b5da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qosF-YDlYo8-TmoxL6ZUFYv3x1tL7xUj\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0Hp8N6Db6R8uXi2-7ggAAAA8'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0Hp8N6Db6R8uXi2-7ggAAAA8'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0Hp8N6Db6R8uXi2-7ggAAAA8'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => '_csrf=8ca225b2494da1c80ad3901d6804af0350a6bd266a51a2dcba89c353cae90b5da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qosF-YDlYo8-TmoxL6ZUFYv3x1tL7xUj%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63123'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355102.706
+    'REQUEST_TIME' => 1540355102
+]
+2018-10-24 04:25:11 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:11 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b88j9ra6po5ia79vn03ps12f8f'
+    '_identity' => '954dad036c567219244bdca808c19659fc4dd18716b09c7f112ebe3beffc3dc1a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[203,\"\",2592000]\";}'
+    '_csrf' => '91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0J7IvYmcT-hU-6Hqf9QAAABQ'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0J7IvYmcT-hU-6Hqf9QAAABQ'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0J7IvYmcT-hU-6Hqf9QAAABQ'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=b88j9ra6po5ia79vn03ps12f8f; _identity=954dad036c567219244bdca808c19659fc4dd18716b09c7f112ebe3beffc3dc1a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B203%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63129'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355111.436
+    'REQUEST_TIME' => 1540355111
+]
+2018-10-24 04:25:14 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:14 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM\";}'
+    'PHPSESSID' => 'kql8mma0j2fvp8uq37qpinaopb'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0KjN7JIY2rHXSnsBiDAAAAGY'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0KjN7JIY2rHXSnsBiDAAAAGY'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0KjN7JIY2rHXSnsBiDAAAAGY'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => '_csrf=91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM%22%3B%7D; PHPSESSID=kql8mma0j2fvp8uq37qpinaopb'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63134'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355114.339
+    'REQUEST_TIME' => 1540355114
+]
+2018-10-24 04:25:15 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:15 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM\";}'
+    'PHPSESSID' => 'kql8mma0j2fvp8uq37qpinaopb'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0KyRBgXmX4URxh12BrgAAAFQ'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0KyRBgXmX4URxh12BrgAAAFQ'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0KyRBgXmX4URxh12BrgAAAFQ'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => '_csrf=91cd5ff2f59779802bdf747da752641801c908af34da42beaefb2262cead6a98a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22aJT5kyx9pytQWK7eYQwG7bRCPu6C35aM%22%3B%7D; PHPSESSID=kql8mma0j2fvp8uq37qpinaopb'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63133'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355115.627
+    'REQUEST_TIME' => 1540355115
+]
+2018-10-24 04:25:22 [174.115.238.108][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/ec19366a/jquery-ui.css". in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('assets/ec19366a...', Array)
+#1 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/staks/public_html/staksdemo.info/htdocs/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/staks/public_html/staksdemo.info/htdocs/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2018-10-24 04:25:22 [174.115.238.108][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b5aqvjiausqqk4t34ue0sjtbqs'
+    '_identity' => '1d9d8c44cb6bbb2c79894890dfea151b3f06ee3e2f7a2e479a27757f8efe185fa:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[204,\"\",2592000]\";}'
+    '_csrf' => '5c038c5744075ac56aa0041b2b4a2f9bb36f21f09040498d647adc1125439ea1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9oW-5tTXkJ45F1YtDACUo9loPCEaVEZq\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'W8-0MtOZDV@7cGrhG4yvCQAAAGM'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'W8-0MtOZDV@7cGrhG4yvCQAAAGM'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'staksdemo.info'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W8-0MtOZDV@7cGrhG4yvCQAAAGM'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'staksdemo.info'
+    'HTTP_HOST' => 'staksdemo.info'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_REFERER' => 'https://staksdemo.info/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,es;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=b5aqvjiausqqk4t34ue0sjtbqs; _identity=1d9d8c44cb6bbb2c79894890dfea151b3f06ee3e2f7a2e479a27757f8efe185fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B204%2C%22%22%2C2592000%5D%22%3B%7D; _csrf=5c038c5744075ac56aa0041b2b4a2f9bb36f21f09040498d647adc1125439ea1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229oW-5tTXkJ45F1YtDACUo9loPCEaVEZq%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'staksdemo.info'
+    'SERVER_ADDR' => '208.88.17.181'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '174.115.238.108'
+    'DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/staks/public_html/staksdemo.info/htdocs/'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/staks/public_html/staksdemo.info/htdocs/web/index.php'
+    'REMOTE_PORT' => '63136'
+    'REDIRECT_URL' => '/web/assets/ec19366a/jquery-ui.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/ec19366a/jquery-ui.css'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1540355122.009
+    'REQUEST_TIME' => 1540355122
+]
